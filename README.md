@@ -35,4 +35,4 @@ Outputs:
 *  source_clusters_timepoint: Activation clusters at each time point 
 *  source_clusters_reduced: Final activation clusters, defining the sources of activation
 *  source_clusters_meta: Information about when each cluster of activation appears. If multiple initiation sites, this file also specifies when these activation waves merge together
-*  
+
