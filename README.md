@@ -6,7 +6,7 @@ This folder contains scripts for post processing simulated activity.
 
 
 ## trace_graph_back_to_sources.py
-This script traces the activation back to its sources with a resolution of 10 ms. Each source (initiation site) is defined as a cluster of 1000 nodes activated before its neighbouring nodes. The script is used to find initiation sites for reentry, given that the activations caused by the reentrant wave has been identified.
+This script traces the activation back to its sources with a resolution of 10 ms. Each source (initiation site) is defined as a cluster of 1000 nodes activated before its neighbouring nodes. The script is used to find initiation sites for reentry given that the activations caused by the reentrant wave has been identified.
 Inputs:
 * elem_infile: Mesh element file for the ventricular model. Format is adapted from openCARPs .elem files, but without element type speficier and element tag. 
 
