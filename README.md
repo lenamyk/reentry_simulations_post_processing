@@ -18,3 +18,8 @@ Inputs:
   
   Where each line defines an element consisting of four vertices.
 
+* 
+
+
+Usage:
+python3.9 trace_graph_back_to_sources.py -e element_file_onlynodes.elem  -a reentry_nodes_with_activation_times_sorted -o reentry_clusters
