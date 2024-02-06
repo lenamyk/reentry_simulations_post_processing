@@ -8,7 +8,7 @@ This folder contains scripts for post processing reentrant activity.
 ## trace_graph_back_to_sources.py
 This script traces the reentrant wave back to its sources with a resolution of 10 ms. Each source (initiation site) is defined as a cluster of 1000 nodes activated before its neighbouring nodes.
 Inputs:
-* elem_infile: Mesh element file for the ventricular model. Format is adapted from openCARPs .elem files, but without element type speficier and element tag. Instead, only the vertices for each element are listed per line.
+* elem_infile: Mesh element file for the ventricular model. Format is adapted from openCARPs .elem files, but without element type speficier and element tag. 
 
   Example:\
   917393 917441 917618 917498 \
