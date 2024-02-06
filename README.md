@@ -29,10 +29,10 @@ Inputs:
   Where the first column is the vertex number and the second is the corresponding activation times.
 
 Usage:
-python3.9 trace_graph_back_to_sources.py -e element_file_onlynodes.elem  -a reentry_nodes_with_activation_times_sorted -o reentry_clusters
+python3.9 trace_graph_back_to_sources.py -e element_file_onlynodes.elem  -a reentry_nodes_with_activation_times_sorted -o source_clusters
 
 Outputs:
-*  Activation clusters at each time point (reentry_clusters_timepoint)
-*  Final activation clusters, defining the sources of activation (reentry_clusters_reduced)
-*  
+*  source_clusters_timepoint: Activation clusters at each time point 
+*  source_clusters_reduced: Final activation clusters, defining the sources of activation
+*  source_clusters_meta: Information about when each cluster of activation appears. If multiple initiation sites, this file also specifies when these activation waves merge together
 *  
