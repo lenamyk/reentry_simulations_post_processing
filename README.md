@@ -26,7 +26,7 @@ Inputs:
   231275 1881.603445 \
   ... \
 
-  Where the first column is the vertex number and the second is the corresponding activation times.
+  Where the first column is the vertex number and the second is the corresponding activation time.
 
 Usage:
 python3.9 trace_graph_back_to_sources.py -e element_file_onlynodes.elem  -a reentry_nodes_with_activation_times_sorted -o source_clusters
