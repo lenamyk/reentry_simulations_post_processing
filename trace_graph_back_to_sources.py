@@ -6,7 +6,7 @@ Created on Sun Sep 11 18:25:57 2022
 This script takes an activation wave (for example a reentrant wave) and traces the activation back to its sources with a resolution of 10 ms. Each source (initiation site) is defined as a cluster of 1000 nodes activated before its neighbouring nodes.
 
 Inputs:
-* elem_infile: Mesh element file for the ventricular model. Format is adapted from openCARPs .elem files, but without element type speficier and element tag.
+* elem_infile: Mesh element file for the ventricular model. Format is similar to openCARPs .elem files, but without element type speficier and element tag.
 * act_infile: Consists of activation times to consider, sorted from earliest to latest.
 
 Steps:
