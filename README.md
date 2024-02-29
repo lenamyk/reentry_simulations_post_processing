@@ -14,7 +14,7 @@ Inputs:
   917393 917441 917618 917498 \
   516035 516065 517204 516086 \
   281890 282157 281912 282177 \
-  ... \
+  ... 
   
   Where each line defines an element consisting of four vertices.
 
@@ -24,7 +24,7 @@ Inputs:
   220507 1879.918604 \
   218470 1880.632104 \
   231275 1881.603445 \
-  ... \
+  ... 
 
   Where the first column gives the vertex number and the second column gives the corresponding activation time.
 
